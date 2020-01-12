@@ -1,7 +1,7 @@
 const express=require('express');
 const router=express.Router();
-const connection=require('../config/connection');
-
+//const connection=require('../config/connection');
+/*
 router.get("",function(req,res){
 
     connection.query('select * from nodedb',function (err,rows){
@@ -13,6 +13,7 @@ router.get("",function(req,res){
           }); 
         
     });
+    */
     res.send("hello");
 
     
